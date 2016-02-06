@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_f1f10c340a0bb47bc08bb82cb18f4c2be8cda874.jar" />
+    </item>
+    <item
+        jar="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_adba515e0c212c3975281bf8969e7e11b33ba218.jar" />
+    </item>
+    <item
+        jar="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_82e5a9034eb1f5d735381575f6c1990757b9c93f.jar" />
+    </item>
+    <item
+        jar="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_a29c210824d69b039c21437799ac95af6376b581.jar" />
+    </item>
+    <item
+        jar="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.6.0_fdd61a9385d55bb108ef566fafb93276d51e605f.jar" />
+    </item>
+    <item
+        jar="C:\Users\sonia\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_e32c297b73b74386eba15c089e73fb4b81224fdb.jar" />
+    </item>
+    <item
+        jar="C:\Users\sonia\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0_fccb805f6646ac7f7987af4cd710db608c5b6288.jar" />
+    </item>
+    <item
+        jar="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\sonia\AndroidStudioProjects\Able\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_e9c138dc4198c5f6b2db0e6f7c3ef06d5ee52345.jar" />
+    </item>
+
+</items>
