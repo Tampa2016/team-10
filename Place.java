@@ -10,9 +10,11 @@ public class Place{
     public String getName(){
         return this.name;
     }
+    
     public void setName(String n){
         name =n;
     }
+    
     public String getplaceID(){
         return String.valueOf(placeID);
     }
