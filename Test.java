@@ -38,8 +38,35 @@ public class Test {
         for (int i=0; i < 5; i++){
             r1.addResultsArray(allResults);
         }
-        
-        
+        //__Test Locations__
+        // Create 9 test locations
+        Location l1 = new Location("Subway","Sandwhich Shop",863,4225439,
+                "subway.com","Haines City","Florida","1013 E Hinson Ave",33844);
+        Location l2 = new Location("La Parcela","Mexican Resturant",863,4190569,
+                "N/A","Haines City","Florida","15 S 10th St", 33844);
+        Location l3 = new Location("Kangaroo Express","Convience Store",863,
+                4225439,"kangarooexpress.com","Haines City","Florida",
+                "1013 E Hinson Avenue",33844);
+        Location l4 = new Location("Bank of America","Bank",863,4221124,
+                "locators.bankofamerica.com","Haines City","Florida",
+                "905 E Hinson Ave",33844);
+        Location l5 = new Location("Advance Auto Parts","Auto Parts Store",863,
+                4214061,"stores.advanceautoparts.com","Haines City","Florida",
+                "1015 E Hinson Ave",33844);
+        Location l6 = new Location("Landmark Baptist College","College",863,
+                4226493,"landmarkbaptistcollege.com","Haines City","Florida",
+                "810 E Hinson Ave",33844);
+        Location l7 = new Location("Palm Krest Manor Assisted",
+                "Assisted Living Facility",863,4223567,"N/A","Haines City",
+                "Florida","20 S 10th St",33844);
+        Location l8 = new Location("Lindvall Florist Inc.","Florist",863,
+                4222541,"N/A","Haines City","Florida","29 N 10th St",33844);
+        Location l9 = new Location("Natalie's Special Occasions boutique",
+                "Boutique",863,3536117,"N/A","Haines City","Florida",
+                "17 N 10th St",33844);
+        //Put locations into list.
+        Location nearbyPlaces[] = {l1,l2,l3,l4,l5,l6,l7,l8,l9};
+        // 1000 reviews per location.
         
         
     }
