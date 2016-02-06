@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package CodeForGood;
-
+import java.security.SecureRandom;
 /**
  *
  * @author Quentin Goss
@@ -66,10 +66,31 @@ public class Test {
                 "17 N 10th St",33844);
         //Put locations into list.
         Location nearbyPlaces[] = {l1,l2,l3,l4,l5,l6,l7,l8,l9};
-        // 1000 reviews per location.
-        
-        
+        // @param trials reviews for each 5 questions
+        int trials = 1000;
+        // randomResults[question#][Results...]
+        int randomResults[][] = new int[5][trials];
+        for (int i = 0;i < trials;i++){
+            SecureRandom randomNum = new SecureRandom();
+            // Question 1 (1:5)
+            randomResults[0][i] = randomNum.nextInt(6); 
+            // Questions 2-5 ('y' or 'n')
+            for (int j = 1; j <= 4; j++){
+                randomResults[j][i] = randomNum.nextInt(2);
+            }
+        }
+        // Sum up results
+        int meanResults[] = new int[5];
+        for (int i = 0; i < trials; i++){
+            for (int j = 0; j < 5; j++){
+                meanResults[j] += randomResults[j][i];
+            }
+        }
+        // find mean of results
+        meanResults[0] /= trials;
+        for (int i = 0; i < 5; i++){
+            //meanResults[i] /= trials;
+            System.out.printf("%s%n", "Q" + i + ": " + meanResults[i]);
+        }
     }
-
-    
 }
